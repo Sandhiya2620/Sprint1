@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yummy</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      background-color: #e7384c;
+    }
+    .search-bar {
+      background-color: #f8f9fa;
+    }
+    .restaurant-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      margin: 10px;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#"> Yummy </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html">About Us </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Product.html">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Login.html">Log In</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Form.html">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="container search-bar p-3">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h1 class="text-center">Discover Amazing Restaurants Near You</h1>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Search for restaurants, cuisines, or dishes">
+          <div class="input-group-append">
+            <button class="btn btn-primary" type="button">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="restaurant-card">
+          <img src="Images\Vellore kitchen.jpg" alt="Restaurant 1" class="img-fluid mb-3">
+          <h3>The Vellore Kitchen</h3>
+          <p>No: 27/4, 1st East Main Road Silk Mill, Gandhi Nagar,, Vellore 632006 India.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="restaurant-card">
+          <img src="Images\Hundreds Heritage.jpg" alt="Restaurant 2" class="img-fluid mb-3">
+          <h3>Hundreds Heritage</h3>
+          <p>No. 10, 14th East Cross Rd, Suthanthira Ponvizha Nagar, Gandhi Nagar, Vellore, Tamil Nadu 632006</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="restaurant-card">
+          <img src="Images\images.jpg" alt="Restaurant 3" class="img-fluid mb-3">
+          <h3>Alankar</h3>
+          <p>Old Bypass Road, Thottapalayam, near Bus Stand, Vellore, Tamil Nadu 632004</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
